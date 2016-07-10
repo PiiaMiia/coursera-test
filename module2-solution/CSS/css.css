@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30-Jun-2016, 22:42:07
+    Author     : oravp
+*/
+body {
+    background-color: white;
+    font-family: comic sans MS, cursive, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+	padding: 10px;
+}
+
+section {
+	background-color: grey;
+	border: 1px solid black;
+	width: 30%;
+	height: 175px;
+	float: left;
+	border-radius: 1px;
+	margin-bottom: 20px;
+}
+
+.yks {
+	margin-right: 20px;
+}	
+
+section section {
+	position: relative;
+	float: right;
+	width: 33.33%;
+	height: 17%;
+	margin: 0px;
+	text-align: center;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+#one {
+	background-color: lightcoral;
+	opacity: 0.7;
+}
+#two {
+	background-color: #ff3333;
+	color: white;
+	opacity: 0.8;
+}
+#three {
+	background-color: #ffe066;
+	opacity: 0.7;
+}
+
+section p {
+	margin-top: 8%;
+}
+
+/*Layout: In the desktop view (992px and above), each of the 3 sections should take up equal amount of space on the screen.
+As you make the browser window wider or narrower, each section should become wider or narrower.
+(Hint: use percentages to define width and use the ‘float’ property. See Lecture 24).*/
+
+@media (min-width: 992px) {
+.kolm {
+	margin-left: 20px;
+}
+
+}
+
+/*Layout: In the tablet view (between 768px and 991px, inclusively), the first 2 sections should be in the first row and be of equal size.
+The 3rd section should be in the second row and take up the entire row by itself.*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .yks {
+    	width: 47.5%;
+    	float: left;
+    	margin-right:20px;
+    }
+    .kaks {
+    	width: 47.5%;
+    	float: right;
+    }
+    .kolm {
+    	width: 100%;
+    	clear: left;
+    }
+}
+
+/*Layout: In the mobile view (equal to or less than 767px), each section should take up the entire row.*/
+
+@media (max-width: 767px) {
+	.yks {
+		width: 100%;
+	}
+	.kaks {
+		width: 100%;
+	}
+	.kolm {
+		width: 100%;
+	}
+    }
