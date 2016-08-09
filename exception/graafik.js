@@ -36,7 +36,9 @@ window.onload = function () {
                             {label: "W26", y: 1581},
                             {label: "W27", y: 1519},
                             {label: "W28", y: 1173},
-                            {label: "W29", y: 1045}
+                            {label: "W29", y: 1045},
+                            {label: "W30", y: 1080},
+                            {label: "W31", y: 951}
                         ]
                     },
                     {
@@ -50,7 +52,9 @@ window.onload = function () {
                             {label: "W26", y: 763},
                             {label: "W27", y: 756},
                             {label: "W28", y: 658},
-                            {label: "W29", y: 502}
+                            {label: "W29", y: 502},
+                            {label: "W30", y: 539},
+                            {label: "W31", y: 460}
                         ]
                     },
                     {
@@ -64,7 +68,9 @@ window.onload = function () {
                             {label: "W26", y: 818},
                             {label: "W27", y: 763},
                             {label: "W28", y: 515},
-                            {label: "W29", y: 543}
+                            {label: "W29", y: 543},
+                            {label: "W30", y: 541},
+                            {label: "W31", y: 491}
                         ]
                     },
                     {
@@ -78,7 +84,9 @@ window.onload = function () {
                             {label: "W26", y: 524},
                             {label: "W27", y: 493},
                             {label: "W28", y: 357},
-                            {label: "W29", y: 323}
+                            {label: "W29", y: 323},
+                            {label: "W30", y: 0},
+                            {label: "W31", y: 0}
                         ]
                     },
                     {
@@ -92,7 +100,9 @@ window.onload = function () {
                             {label: "W26", y: 31},
                             {label: "W27", y: 60},
                             {label: "W28", y: 53},
-                            {label: "W29", y: 47}
+                            {label: "W29", y: 47},
+                            {label: "W30", y: 0},
+                            {label: "W31", y: 0}
                         ]
                     },
                     {
@@ -106,7 +116,9 @@ window.onload = function () {
                             {label: "W26", y: 91},
                             {label: "W27", y: 84},
                             {label: "W28", y: 92},
-                            {label: "W29", y: 44}
+                            {label: "W29", y: 44},
+                            {label: "W30", y: 0},
+                            {label: "W31", y: 0}
                         ]
                     },
                     {
@@ -120,7 +132,9 @@ window.onload = function () {
                             {label: "W26", y: 18},
                             {label: "W27", y: 25},
                             {label: "W28", y: 22},
-                            {label: "W29", y: 16}
+                            {label: "W29", y: 16},
+                            {label: "W30", y: 0},
+                            {label: "W31", y: 0}
                         ]
                     },
                     {
@@ -134,7 +148,9 @@ window.onload = function () {
                             {label: "W26", y: 3},
                             {label: "W27", y: 5},
                             {label: "W28", y: 6},
-                            {label: "W29", y: 5}
+                            {label: "W29", y: 5},
+                            {label: "W30", y: 0},
+                            {label: "W31", y: 0}
                         ]
                     },
                     {
@@ -148,7 +164,9 @@ window.onload = function () {
                             {label: "W26", y: 23},
                             {label: "W27", y: 33},
                             {label: "W28", y: 38},
-                            {label: "W29", y: 33}
+                            {label: "W29", y: 33},
+                            {label: "W30", y: 0},
+                            {label: "W31", y: 0}
                         ]
                     },
                     {
@@ -162,7 +180,9 @@ window.onload = function () {
                             {label: "W26", y: 5},
                             {label: "W27", y: 12},
                             {label: "W28", y: 6},
-                            {label: "W29", y: 8}
+                            {label: "W29", y: 8},
+                            {label: "W30", y: 0},
+                            {label: "W31", y: 0}
                         ]
                     },
                     {
@@ -176,7 +196,9 @@ window.onload = function () {
                             {label: "W26", y: 45},
                             {label: "W27", y: 43},
                             {label: "W28", y: 83},
-                            {label: "W29", y: 5}
+                            {label: "W29", y: 5},
+                            {label: "W30", y: 0},
+                            {label: "W31", y: 0}
                         ]
                     },
                     {
@@ -190,7 +212,9 @@ window.onload = function () {
                             {label: "W26", y: 830},
                             {label: "W27", y: 1017},
                             {label: "W28", y: 876},
-                            {label: "W29", y: 1045}
+                            {label: "W29", y: 1045},
+                            {label: "W30", y: 939},
+                            {label: "W31", y: 770}
                         ]
                     },
                     {
@@ -204,7 +228,9 @@ window.onload = function () {
                             {label: "W26", y: 413},
                             {label: "W27", y: 742},
                             {label: "W28", y: 322},
-                            {label: "W29", y: 354}
+                            {label: "W29", y: 354},
+                            {label: "W30", y: 333},
+                            {label: "W31", y: 313}
                         ]
                     },
                     {
@@ -218,7 +244,9 @@ window.onload = function () {
                             {label: "W26", y: 117},
                             {label: "W27", y: 219},
                             {label: "W28", y: 115},
-                            {label: "W29", y: 163}
+                            {label: "W29", y: 163},
+                            {label: "W30", y: 152},
+                            {label: "W31", y: 153}
                         ]
                     },
                     {
@@ -232,7 +260,9 @@ window.onload = function () {
                             {label: "W26", y: 118},
                             {label: "W27", y: 97},
                             {label: "W28", y: 119},
-                            {label: "W29", y: 96}
+                            {label: "W29", y: 96},
+                            {label: "W30", y: 69},
+                            {label: "W31", y: 66}
                         ]
                     },
                     {
@@ -246,7 +276,9 @@ window.onload = function () {
                             {label: "W26", y: 329},
                             {label: "W27", y: 590},
                             {label: "W28", y: 515},
-                            {label: "W29", y: 561}
+                            {label: "W29", y: 561},
+                            {label: "W30", y: 529},
+                            {label: "W31", y: 404}
                         ]
                     },
                     {
@@ -260,7 +292,9 @@ window.onload = function () {
                             {label: "W26", y: 61},
                             {label: "W27", y: 33},
                             {label: "W28", y: 23},
-                            {label: "W29", y: 22}
+                            {label: "W29", y: 22},
+                            {label: "W30", y: 20},
+                            {label: "W31", y: 18}
                         ]
                     },
                     {
@@ -274,7 +308,9 @@ window.onload = function () {
                             {label: "W26", y: 107},
                             {label: "W27", y: 0},
                             {label: "W28", y: 0},
-                            {label: "W29", y: 116}
+                            {label: "W29", y: 116},
+                            {label: "W30", y: 99},
+                            {label: "W31", y: 54}
                         ]
                     },
                     {
@@ -288,7 +324,9 @@ window.onload = function () {
                             {label: "W26", y: 98},
                             {label: "W27", y: 78},
                             {label: "W28", y: 104},
-                            {label: "W29", y: 87}
+                            {label: "W29", y: 87},
+                            {label: "W30", y: 70},
+                            {label: "W31", y: 75}
                         ]
                     }
                 ],
