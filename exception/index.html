@@ -3,11 +3,60 @@
 <html>
     <head>  
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.js"></script>
+        <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
         <script type="text/javascript" src="graafik.js"></script>
         <title>Exceptions inbox traffic W23 - ...</title>
     </head>
     <body>
         <div id="chartContainer" style="height: 500px; width: 100%;">
         </div>
+        <button id="addDataPoint">Add Data Point</button>
+        <br>
+        <form>
+        Inbox traffic TOTAL:
+        <br> 
+        <input id="inbox" type="number">
+        <br>
+        Received e-mails TOTAL:
+        <br>
+        <input id="received" type="number" name="Received e-mails TOTAL">
+        <br>
+        Sent e-mails TOTAL:
+        <br>
+        <input id="sent" type="number" name="Sent e-mails TOTAL">
+        <br>
+        Exceptions tables:
+        <br>
+        <input id="tables" type="number" name="Exceptions tables">
+        <br>
+        New exceptions:
+        <br>
+        <input id="new" type="number" name="New exceptions">
+        <br>
+        Missing funds table:
+        <br>
+        <input id="funds" type="number" name="Missing funds table">
+        <br>
+        Missing receipts table:
+        <br>
+        <input id="receipt" type="number" name="Missing receipts table">
+        <br>
+        Approval table:
+        <br>
+        <input id="approval" type="number" name="Approval table">
+        <br>
+        Vouchers table:
+        <br>
+        <input id="vouchers" type="number" name="Vouchers table">
+        <br>
+        Critical table:
+        <br>
+        <input id="critical" type="number" name="Critical table">
+        <br>
+        Other eProc table:
+        <br>
+        <input id="other" type="number" name="Other eProc table">
+
+        </form>
     </body>
 </html>
