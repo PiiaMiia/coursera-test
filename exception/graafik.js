@@ -224,19 +224,22 @@ window.onload = function () {
     chart.render();
 
 
-    $( "#addDataPoint" ).click(function() {
-        chart.options.data[0].dataPoints.push({label: "W32", y: parseFloat($( "#inbox").val())});
-        chart.options.data[1].dataPoints.push({label: "W32", y: parseFloat($( "#received").val())});
-        chart.options.data[2].dataPoints.push({label: "W32", y: parseFloat($( "#sent").val())});
-        chart.options.data[3].dataPoints.push({label: "W32", y: parseFloat($( "#tables").val())});
-        chart.options.data[4].dataPoints.push({label: "W32", y: parseFloat($( "#new").val())});
-        chart.options.data[5].dataPoints.push({label: "W32", y: parseFloat($( "#funds").val())});
-        chart.options.data[6].dataPoints.push({label: "W32", y: parseFloat($( "#receipt").val())});
-        chart.options.data[7].dataPoints.push({label: "W32", y: parseFloat($( "#approval").val())});
-        chart.options.data[8].dataPoints.push({label: "W32", y: parseFloat($( "#vouchers").val())});
-        chart.options.data[9].dataPoints.push({label: "W32", y: parseFloat($( "#critical").val())});
-        chart.options.data[10].dataPoints.push({label: "W32", y: parseFloat($( "#other").val())});
+    $("#addDataPoint").click(function() {
+        chart.options.data[0].dataPoints.push({label: $("#week").val(), y: parseFloat($("#inbox").val())});
+        chart.options.data[1].dataPoints.push({label: $("#week").val(), y: parseFloat($( "#received").val())});
+        chart.options.data[2].dataPoints.push({label: $("#week").val(), y: parseFloat($( "#sent").val())});
+        chart.options.data[3].dataPoints.push({label: $("#week").val(), y: parseFloat($( "#tables").val())});
+        chart.options.data[4].dataPoints.push({label: $("#week").val(), y: parseFloat($( "#new").val())});
+        chart.options.data[5].dataPoints.push({label: $("#week").val(), y: parseFloat($( "#funds").val())});
+        chart.options.data[6].dataPoints.push({label: $("#week").val(), y: parseFloat($( "#receipt").val())});
+        chart.options.data[7].dataPoints.push({label: $("#week").val(), y: parseFloat($( "#approval").val())});
+        chart.options.data[8].dataPoints.push({label: $("#week").val(), y: parseFloat($( "#vouchers").val())});
+        chart.options.data[9].dataPoints.push({label: $("#week").val(), y: parseFloat($( "#critical").val())});
+        chart.options.data[10].dataPoints.push({label: $("#week").val(), y: parseFloat($( "#other").val())});
         chart.render();
+        if (Y = NaN) {
+            alert("Please enter a number")
+        }
     });
 
 
