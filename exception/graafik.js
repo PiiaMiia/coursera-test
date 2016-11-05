@@ -4,26 +4,29 @@ window.onload = function () {
                 title: {
                     text: "Exceptions workload traffic",
                     fontSize: 20
-            
                 },
+
                 animationEnabled: true,
                 axisX: {
                     gridColor: "Silver",
                     tickColor: "silver",
-
                 },
+
                 toolTip: {
                     shared: true
                 },
+
                 theme: "theme2",
                 axisY: {
                     gridColor: "Silver",
                     tickColor: "silver"
                 },
+
                 legend: {
                     verticalAlign: "center",
                     horizontalAlign: "right"
                 },
+
                 data: [
                     {
                         type: "spline",
@@ -33,7 +36,12 @@ window.onload = function () {
                             {label: "W23", y: 1878},
                             {label: "W24", y: 1371},
                             {label: "W25", y: 974},
-                            {label: "W26", y: 1581}
+                            {label: "W26", y: 1581},
+                            {label: "W27", y: 1519},
+                            {label: "W28", y: 1173},
+                            {label: "W29", y: 1045},
+                            {label: "W30", y: 1080},
+                            {label: "W31", y: 951}
                         ]
                     },
                     {
@@ -44,7 +52,12 @@ window.onload = function () {
                             {label: "W23", y: 919},
                             {label: "W24", y: 704},
                             {label: "W25", y: 601},
-                            {label: "W26", y: 763}
+                            {label: "W26", y: 763},
+                            {label: "W27", y: 756},
+                            {label: "W28", y: 658},
+                            {label: "W29", y: 502},
+                            {label: "W30", y: 539},
+                            {label: "W31", y: 460}
                         ]
                     },
                     {
@@ -55,84 +68,12 @@ window.onload = function () {
                            {label: "W23", y: 959},
                             {label: "W24", y: 667},
                             {label: "W25", y: 373},
-                            {label: "W26", y: 818}
-                        ]
-                    },
-                    {
-                        type: "spline",
-                        showInLegend: true,
-                        name: "Team",
-                        dataPoints: [
-                            {label: "W23", y: 605},
-                            {label: "W24", y: 501},
-                            {label: "W25", y: 317},
-                            {label: "W26", y: 524}
-                        ]
-                    },
-                    {
-                        type: "spline",
-                        showInLegend: true,
-                        name: "Missing funds",
-                        dataPoints: [
-                            {label: "W23", y: 8},
-                            {label: "W24", y: 27},
-                            {label: "W25", y: 43},
-                            {label: "W26", y: 31}
-                        ]
-                    },
-                    {
-                        type: "spline",
-                        showInLegend: true,
-                        name: "Missing receipt",
-                        dataPoints: [
-                            {label: "W23", y: 138},
-                            {label: "W24", y: 62},
-                            {label: "W25", y: 139},
-                            {label: "W26", y: 91}
-                        ]
-                    },
-                    {
-                        type: "spline",
-                        showInLegend: true,
-                        name: "PO completed",
-                        dataPoints: [
-                            {label: "W23", y: 60},
-                            {label: "W24", y: 32},
-                            {label: "W25", y: 35},
-                            {label: "W26", y: 18}
-                        ]
-                    },
-                    {
-                        type: "spline",
-                        showInLegend: true,
-                        name: "Reminders",
-                        dataPoints: [
-                            {label: "W23", y: 13},
-                            {label: "W24", y: 7},
-                            {label: "W25", y: 2},
-                            {label: "W26", y: 3}
-                        ]
-                    },
-                    {
-                        type: "spline",
-                        showInLegend: true,
-                        name: "Returned invoices",
-                        dataPoints: [
-                            {label: "W23", y: 27},
-                            {label: "W24", y: 19},
-                            {label: "W25", y: 5},
-                            {label: "W26", y: 23}
-                        ]
-                    },
-                    {
-                        type: "spline",
-                        showInLegend: true,
-                        name: "Other eProc",
-                        dataPoints: [
-                            {label: "W23", y: 24},
-                            {label: "W24", y: 18},
-                            {label: "W25", y: 18},
-                            {label: "W26", y: 5}
+                            {label: "W26", y: 818},
+                            {label: "W27", y: 763},
+                            {label: "W28", y: 515},
+                            {label: "W29", y: 543},
+                            {label: "W30", y: 541},
+                            {label: "W31", y: 491}
                         ]
                     },
                     {
@@ -143,7 +84,28 @@ window.onload = function () {
                             {label: "W23", y: 925},
                             {label: "W24", y: 884},
                             {label: "W25", y: 1084},
-                            {label: "W26", y: 830}
+                            {label: "W26", y: 830},
+                            {label: "W27", y: 1017},
+                            {label: "W28", y: 876},
+                            {label: "W29", y: 1045},
+                            {label: "W30", y: 939},
+                            {label: "W31", y: 770}
+                        ]
+                    },
+                    {
+                        type: "spline",
+                        showInLegend: true,
+                        name: "New exceptions",
+                        dataPoints: [
+                            {label: "W23", y: 424},
+                            {label: "W24", y: 458},
+                            {label: "W25", y: 665},
+                            {label: "W26", y: 413},
+                            {label: "W27", y: 742},
+                            {label: "W28", y: 322},
+                            {label: "W29", y: 354},
+                            {label: "W30", y: 333},
+                            {label: "W31", y: 313}
                         ]
                     },
                     {
@@ -154,7 +116,12 @@ window.onload = function () {
                             {label: "W23", y: 52},
                             {label: "W24", y: 77},
                             {label: "W25", y: 110},
-                            {label: "W26", y: 117}
+                            {label: "W26", y: 117},
+                            {label: "W27", y: 219},
+                            {label: "W28", y: 115},
+                            {label: "W29", y: 163},
+                            {label: "W30", y: 152},
+                            {label: "W31", y: 153}
                         ]
                     },
                     {
@@ -165,7 +132,12 @@ window.onload = function () {
                             {label: "W23", y: 95},
                             {label: "W24", y: 104},
                             {label: "W25", y: 108},
-                            {label: "W26", y: 118}
+                            {label: "W26", y: 118},
+                            {label: "W27", y: 97},
+                            {label: "W28", y: 119},
+                            {label: "W29", y: 96},
+                            {label: "W30", y: 69},
+                            {label: "W31", y: 66}
                         ]
                     },
                     {
@@ -176,7 +148,12 @@ window.onload = function () {
                             {label: "W23", y: 327},
                             {label: "W24", y: 401},
                             {label: "W25", y: 652},
-                            {label: "W26", y: 329}
+                            {label: "W26", y: 329},
+                            {label: "W27", y: 590},
+                            {label: "W28", y: 515},
+                            {label: "W29", y: 561},
+                            {label: "W30", y: 529},
+                            {label: "W31", y: 404}
                         ]
                     },
                     {
@@ -187,7 +164,12 @@ window.onload = function () {
                             {label: "W23", y: 248},
                             {label: "W24", y: 123},
                             {label: "W25", y: 103},
-                            {label: "W26", y: 61}
+                            {label: "W26", y: 61},
+                            {label: "W27", y: 33},
+                            {label: "W28", y: 23},
+                            {label: "W29", y: 22},
+                            {label: "W30", y: 20},
+                            {label: "W31", y: 18}
                         ]
                     },
                     {
@@ -198,7 +180,12 @@ window.onload = function () {
                             {label: "W23", y: 203},
                             {label: "W24", y: 179},
                             {label: "W25", y: 111},
-                            {label: "W26", y: 107}
+                            {label: "W26", y: 107},
+                            {label: "W27", y: 0},
+                            {label: "W28", y: 0},
+                            {label: "W29", y: 116},
+                            {label: "W30", y: 99},
+                            {label: "W31", y: 54}
                         ]
                     },
                     {
@@ -209,7 +196,12 @@ window.onload = function () {
                             {label: "W23", y: 0},
                             {label: "W24", y: 0},
                             {label: "W25", y: 0},
-                            {label: "W26", y: 98}
+                            {label: "W26", y: 98},
+                            {label: "W27", y: 78},
+                            {label: "W28", y: 104},
+                            {label: "W29", y: 87},
+                            {label: "W30", y: 70},
+                            {label: "W31", y: 75}
                         ]
                     }
                 ],
@@ -218,13 +210,37 @@ window.onload = function () {
                     itemclick: function (e) {
                         if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
                             e.dataSeries.visible = false;
-                        } else {
+                        }
+
+                        else {
                             e.dataSeries.visible = true;
                         }
                         chart.render();
                     }
+
                 }
             });
 
     chart.render();
-}
+
+
+    $("#addDataPoint").click(function() {
+        chart.options.data[0].dataPoints.push({label: $("#week").val(), y: parseFloat($("#inbox").val())});
+        chart.options.data[1].dataPoints.push({label: $("#week").val(), y: parseFloat($( "#received").val())});
+        chart.options.data[2].dataPoints.push({label: $("#week").val(), y: parseFloat($( "#sent").val())});
+        chart.options.data[3].dataPoints.push({label: $("#week").val(), y: parseFloat($( "#tables").val())});
+        chart.options.data[4].dataPoints.push({label: $("#week").val(), y: parseFloat($( "#new").val())});
+        chart.options.data[5].dataPoints.push({label: $("#week").val(), y: parseFloat($( "#funds").val())});
+        chart.options.data[6].dataPoints.push({label: $("#week").val(), y: parseFloat($( "#receipt").val())});
+        chart.options.data[7].dataPoints.push({label: $("#week").val(), y: parseFloat($( "#approval").val())});
+        chart.options.data[8].dataPoints.push({label: $("#week").val(), y: parseFloat($( "#vouchers").val())});
+        chart.options.data[9].dataPoints.push({label: $("#week").val(), y: parseFloat($( "#critical").val())});
+        chart.options.data[10].dataPoints.push({label: $("#week").val(), y: parseFloat($( "#other").val())});
+        chart.render();
+        if (Y = NaN) {
+            alert("Please enter a number")
+        }
+    });
+
+
+};
