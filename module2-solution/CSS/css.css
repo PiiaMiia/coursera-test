@@ -34,11 +34,19 @@ section {
 	height: 175px;
 	float: left;
 	border-radius: 1px;
+<<<<<<< HEAD
 	margin-bottom: 20px;
 }
 
 .yks {
 	margin-right: 20px;
+=======
+	margin-bottom: 5%;
+}
+
+.yks {
+	margin-right: 5%;
+>>>>>>> 2f924c0780c65eee5c516206445a8494a34f6d42
 }	
 
 section section {
@@ -76,7 +84,11 @@ As you make the browser window wider or narrower, each section should become wid
 
 @media (min-width: 992px) {
 .kolm {
+<<<<<<< HEAD
 	margin-left: 20px;
+=======
+	margin-left: 5%;
+>>>>>>> 2f924c0780c65eee5c516206445a8494a34f6d42
 }
 
 }
@@ -88,7 +100,11 @@ The 3rd section should be in the second row and take up the entire row by itself
     .yks {
     	width: 47.5%;
     	float: left;
+<<<<<<< HEAD
     	margin-right:20px;
+=======
+    	margin-right:5%;
+>>>>>>> 2f924c0780c65eee5c516206445a8494a34f6d42
     }
     .kaks {
     	width: 47.5%;
